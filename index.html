@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Doggle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .tile {
+        border: 0.1rem solid black;
+        width: 2rem;
+        height: 2rem;
+        padding: 0.5rem;
+        margin: 0.2rem;
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      .EMPTY {
+        background-color: white;
+        color: black;
+      }
+
+      .GRAY {
+        background-color: gray;
+        color: white;
+      }
+
+      .GREEN {
+        background-color: rgb(138, 196, 52);
+        color: white;
+      }
+
+      .YELLOW {
+        background-color: rgb(197, 197, 9);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="answer" style="visibility: hidden"></p>
+    <div class="dog">
+      <img id="dogImage" src="" width="300" />
+    </div>
+    <div id="root"></div>
+
+    <script type="module" src="bootstrap.js"></script>
+    <a href="https://github.com/erhuve/doggle_wasm/tree/gh-pages">Github</a>
+  </body>
+</html>
